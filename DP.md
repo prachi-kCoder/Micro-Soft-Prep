@@ -11,3 +11,9 @@
 
 # INTERLEAVE STRINGS 
 - Do here : https://www.geeksforgeeks.org/problems/interleaved-strings/1
+
+# EGG-DROP :
+- intuitive approach of `e v/s floor dp to get CNT OF min moves` : Give tle though
+- Optimise with inverse DP `e v/s moves dp to get the cnt of floor to atleast reach = f` :
+- final optimal answer is 1D dp with `egg v/s moves variation`
+- Do it : https://www.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1
