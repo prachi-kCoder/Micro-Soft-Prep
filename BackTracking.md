@@ -1,3 +1,11 @@
+# M-COLORING
+- Its a NP-complete problem 
+- `TC= O(M^V) M-> no of colors , V->vertices` to be precise O(M^V * V) because M  colors over all v vertices M X M X m.. v times hence M^v and for assigning colors is_safe pruning is applies that lower down the recursion call
+- But for dense graphs , then all edges all other v neighbours connect so is_safe iteration over all nbs => O(V)  ,
+- is_safe optimisation optimises but worst case complexicity remain exponential
+- DO :https://www.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1
+
+  
 # UNIQUE PATHS 3 :
 - ` TC : O(3^(n*m)) `  :BRACNKING FACTOR OF 3 is every cell has 4 cardinal directions and one of those is the direction we came from to the curr cell so visited , hence further 3 more directions to explore
 - - Theoretically is 3^(n*m) but as blocked cell and dead ends will occur then this DFS + BACKTRACKING approach works better than DP+Bitmask {as dp memory allocation is time consume for all states of visited cells} - BACKTRACKING PRUNING {ie cutting off invalid paths early} WORKS WONDERS {make it more efficient than DP+Bitmask}
@@ -13,3 +21,5 @@
 # Palindrome-Partition
 -  O(n) work for each of the 2^n valid partitions, the total complexity is O(n*2^n) , worst case will be a string of all same character where each partition reached the right space ! & SC = O(N + N* 2^N)
 -  Do : https://leetcode.com/problems/palindrome-partitioning/
+
+  
