@@ -9,3 +9,7 @@
 - TC = O(N * 2^N + N logN )  : as 2^N subsets formation , copying n elements of subsets in ans take O(n) at each recursive level
 - SC = O( N  + N * 2^N) for output of O(N* 2^N) + O(N) ie the recursion stack
 - Do : https://leetcode.com/problems/subsets-ii/
+
+# Palindrome-Partition
+-  O(n) work for each of the 2^n valid partitions, the total complexity is O(n*2^n) , worst case will be a string of all same character where each partition reached the right space ! & SC = O(N + N* 2^N)
+-  Do : https://leetcode.com/problems/palindrome-partitioning/
