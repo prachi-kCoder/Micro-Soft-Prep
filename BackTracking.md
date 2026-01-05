@@ -4,3 +4,8 @@
 - SC = O(N*M) {Recursive stack and vis arr} 
 - DO : https://leetcode.com/problems/unique-paths-iii/
 
+# SUBSET-II
+- `j > si & nums[j-1] == nums[j]` this condition is necessary for proning as we want to avoid start the tree with duplicate occ on same recursion level , ## SORTING ## is a must -> As duplicate elements should come adjacently to skip them !
+- TC = O(N * 2^N + N logN )  : as 2^N subsets formation , copying n elements of subsets in ans take O(n) at each recursive level
+- SC = O( N  + N * 2^N) for output of O(N* 2^N) + O(N) ie the recursion stack
+- Do : https://leetcode.com/problems/subsets-ii/
