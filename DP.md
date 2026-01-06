@@ -22,9 +22,11 @@
 - 1) MCM STANDARD WITH MiniCost Split : dp[i][k] , dp[k+1][j] , curr cost arr[i-1] ,arr[k] ,arr[j] dependent or sometimes on conditions
   TRY ON : https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/ 
   3) BURST BALLOON : dp[i][j] = dp[i][k-1] , dp[k+1][j] ie kth is the last which was removed that variation is based on this ! , {inverse intution of k was removed -> solve it assuming it the last one to be removed !}
+     
   - MAX-SKILL/ BURST-BALOON : MCM but reconstruction ! to max not to min
-- Do here : https://www.geeksforgeeks.org/problems/burst-balloons/1
-- 
+- Do here : https://www.geeksforgeeks.org/problems/burst-balloons/1   ,
+- or @ : https://leetcode.com/problems/burst-balloons/description/
+
 - For each interval (i, j), we try every possible balloon k as the last one to burst, combining results from left and right subintervals dp[i][j] -> max of all k from [i,j] with dp[i][j] = dp[i][k-1] + dp[k+1][j] + arr[i-1] * arr[k] * arr[j+1]
 - TC = O(n^3)
 
