@@ -1,4 +1,8 @@
-
+# JOB SCHEDULING:
+- ACTIVITY SELETION : Max no of jobs to be done , unweighted jobs : GREEDY
+- Maximun profit jobs schelude with weighted jobs & specific time line : DP + Binary Search optimization
+- Maximum job scdulduleing with deadline only , : Greedy -> Slot assignment optimised with DSU implementation !
+- 
 # Work-Break
 {It actually depends upon the len of string and word_dict whether to iterate more on dict or on string}
 {If size(dict) < len(s)} :-
