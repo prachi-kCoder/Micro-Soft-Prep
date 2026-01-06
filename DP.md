@@ -8,7 +8,10 @@
 - DO : https://leetcode.com/problems/word-break/submissions/1872268075/
 # Word Break ii
 - Do : https://leetcode.com/problems/word-break-ii/submissions/1872638660/
-
+  
+ # MIN-PATH-SUM in grid
+ - don't forget the browny point of Space optimisation : O(M) rather that making O(N x M) dp table :
+ -  Do  :https://leetcode.com/problems/minimum-path-sum/description/
 
 # INTERLEAVE STRINGS 
 - Do here : https://www.geeksforgeeks.org/problems/interleaved-strings/1
