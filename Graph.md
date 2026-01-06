@@ -1,5 +1,8 @@
 # CHEAPEST FLIGHTS WITHIN K-STOPS 
 - BELIVE IT simple level-wise BFS by stops is the best way to solve this problem !, no 2d array necessary , best optimal
+- SIMPLE STOP WISE LEVEL BFS allows us to explore all possible paths with k stops limit & relaxing the cost[u]/ dist[u]
+- DO NO FORGET : `next_dist and dist array` separate to keep prev level data is used for next level, no currlevel data to be used ,
+- `cost < dist[u]` : Allows best path to explore , from prev level elmination Stale data ! on only exploring least cost path to u further !
 - Do it here : https://leetcode.com/problems/cheapest-flights-within-k-stops/submissions/1842987200/
 
   
