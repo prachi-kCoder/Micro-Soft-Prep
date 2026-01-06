@@ -25,7 +25,7 @@
 - For each interval (i, j), we try every possible balloon k as the last one to burst, combining results from left and right subintervals dp[i][j] -> max of all k from [i,j] with dp[i][j] = dp[i][k-1] + dp[k+1][j] + arr[i-1] * arr[k] * arr[j+1]
 - TC = O(n^3)
 
-  
+
 # EGG-DROP :
 - intuitive approach of `e v/s floor dp to get CNT OF min moves` : Give tle though O(E *F * F)
 - Optimise with inverse DP `e v/s moves dp to get the cnt of floor to atleast reach = f` : O(E * M) , where M -> no. of moves for ie log2(F)
