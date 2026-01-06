@@ -1,8 +1,3 @@
-# JOB SCHEDULING:
-- ACTIVITY SELETION : Max no of jobs to be done , unweighted jobs : GREEDY
-- Maximun profit jobs schelude with weighted jobs & specific time line : DP + Binary Search optimization
-- Maximum job scdulduleing with deadline only , : Greedy -> Slot assignment optimised with DSU implementation !
-
 
 
 # Work-Break
