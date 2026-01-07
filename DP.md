@@ -34,3 +34,7 @@
 - Optimise with inverse DP `e v/s moves dp to get the cnt of floor to atleast reach = f` : O(E * M) , where M -> no. of moves for ie log2(F)
 - final optimal answer is 1D dp with `egg v/s moves variation` O(E*M) , M =LOG2(F)
 - Do it : https://www.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1
+
+# Super Seq (using lcs) reconstruction also !
+- TC = O(n*m)
+- DO : https://www.geeksforgeeks.org/problems/shortest-common-supersequence0322/1
