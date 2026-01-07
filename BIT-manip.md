@@ -5,3 +5,7 @@
 # single no 2 ;
 - tc = O(N) , SC = O(1)
 - DO : https://leetcode.com/problems/single-number-ii/
+
+# Cnt bits : 
+- revise:https://leetcode.com/problems/counting-bits/submissions/1877366183/
+
