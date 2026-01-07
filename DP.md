@@ -47,5 +47,8 @@
 - TC = O(n*m) , SC => O(M) {Get the most optimised version !} but the O(N*M) necessary for LCS reconstruction!
 - DO : https://www.geeksforgeeks.org/problems/shortest-common-supersequence0322/1
 
+# Longest palindromic subsequence 
+- easy hai just optimise it SC to O(N) for brownie points !
+- DO: https://leetcode.com/problems/longest-palindromic-subsequence/submissions/1877761465/
 # EDIT DISTANCE : 
 - Get SC(O(M)) , TC = O(N+M) & donot forget making init : https://leetcode.com/problems/edit-distance/description/ 
