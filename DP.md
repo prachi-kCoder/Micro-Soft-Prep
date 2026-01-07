@@ -36,5 +36,5 @@
 - Do it : https://www.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1
 
 # Super Seq (using lcs) reconstruction also !
-- TC = O(n*m)
+- TC = O(n*m) , SC => O(M) {Get the most optimised version !} but the O(N*M) necessary for LCS reconstruction!
 - DO : https://www.geeksforgeeks.org/problems/shortest-common-supersequence0322/1
