@@ -48,7 +48,9 @@
 - DO : https://www.geeksforgeeks.org/problems/shortest-common-supersequence0322/1
 
 # Longest palindromic subsequence 
-- easy hai just optimise it SC to O(N) for brownie points !
+- O(N) optimisation of space is by making use of DP1d base on len : prev , prev_prev made prev-> of len-1 , prev_prev->len-2
 - DO: https://leetcode.com/problems/longest-palindromic-subsequence/submissions/1877761465/
+
 # EDIT DISTANCE : 
+- Here the DP 1d optimisation is more on the (i) row based ie the outer loop is of {unlike the Longest palindromic Sub where the outloop is of len so prev row is of len-1,  prev_prev is of len-2} , but here i is in outer loop so prev_row is of values of (i-1)th row
 - Get SC(O(M)) , TC = O(N+M) & donot forget making init : https://leetcode.com/problems/edit-distance/description/ 
