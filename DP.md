@@ -3,6 +3,11 @@
 - `left + min(rest ranges for next you own turn) , right + min(rest range of your next turn )`
 - DO  : https://www.geeksforgeeks.org/problems/optimal-strategy-for-a-game-1587115620/1
 
+# MIN-DIFF PARTIOTION:
+- Your thought it right to reach target/2 so minimise the diff between the 1st half <= totalsum/2 and 2nd half = total_sum-1st_half
+- Just use  1D bool DP , or rather use bitset {allows u to make state for 1e5 member {don't always think of make bitmask , bitset allowsfor tabulation apporach}}
+- Do : https://www.geeksforgeeks.org/problems/minimum-sum-partition3317/1
+
 # Work-Break
 {It actually depends upon the len of string and word_dict whether to iterate more on dict or on string}
 {If size(dict) < len(s)} :-
