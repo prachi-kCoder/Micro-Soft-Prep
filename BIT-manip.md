@@ -1,3 +1,9 @@
+# SUBSET - ENUMERATION :
+- submask of mask is mask by the loop : TC = (3^n)  
+- `submask = mask ; submask > 0 ; submask = (submask-1)& mask`  why so ? because for submask , here mask act as a filter to ensure bit with 1's are only considered !
+- Do (DP + bitmask) : https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/description/
+- {This ques can also be done using BinarySearch Backtracking with pruning }
+
 # SINGLE NO-3 
 - {2 unique nos .}GROUP DIVISION : look for right most set bit `unsigned int diff_bit = (unsigned int) x ^ -(unsigned int)x`; here first type case then put(-) ie -(unsigned int) x  , to prevent Undefined behaviour of as 0 is included in non negative side `[-2^31 , 2^31-1]` .
 - Do : https://leetcode.com/problems/single-number-iii/submissions/1877207598/
