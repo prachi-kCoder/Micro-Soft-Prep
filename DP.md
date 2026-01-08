@@ -21,7 +21,8 @@
  - don't forget the browny point of Space optimisation : O(M) rather that making O(N x M) dp table :
  -  Do  :https://leetcode.com/problems/minimum-path-sum/description/
 
-# INTERLEAVE STRINGS 
+# INTERLEAVE STRINGS : 
+-DO 1d optimised version by restricting the sp to 1 dimension , jth one only !
 - Do here : https://www.geeksforgeeks.org/problems/interleaved-strings/1
 
 ## MCM -> 2 variations : 
@@ -59,7 +60,7 @@
 - prev_prev[i]: Represents the result for a range starting at i with length len - 2
 look at len then check the starting index for the curr in recurrence only!
 
-- IF the DP is range based of indexes {i to j} then 
+- IF the DP is range based of indexes {i to j} then : Check in this types here usually only 1 dp works : well :https://www.geeksforgeeks.org/problems/interleaved-strings/1
 ```
 # Longest palindromic subsequence 
 - O(N) optimisation of space is by making use of DP1d base on len : prev , prev_prev made prev-> of len-1 , prev_prev->len-2
