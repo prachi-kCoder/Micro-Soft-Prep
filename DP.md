@@ -47,6 +47,20 @@
 - TC = O(n*m) , SC => O(M) {Get the most optimised version !} but the O(N*M) necessary for LCS reconstruction!
 - DO : https://www.geeksforgeeks.org/problems/shortest-common-supersequence0322/1
 
+
+```cpp
+1D DP OPTIMISATION :
+- FIRST LOOK AT HOW DP IS DEFINED {IF THE INTERVAL DP IS LENGTH BASED ie the outer loop of 2D dp is LEN } :
+- The Interpretation of i, prev, and prev_prev  :
+` len: This is the size of the current subproblem (the number of elements in the range).
+- i: This is always the starting index of the current range.
+- curr[i]: Represents the result for the range starting at i with length len. (The end index is implicitly j = i + len - 1).
+- prev[i]: Represents the result for a range starting at i with length len - 1.
+- prev_prev[i]: Represents the result for a range starting at i with length len - 2
+look at len then check the starting index for the curr in recurrence only!
+
+- IF the DP is range based of indexes {i to j} then 
+```
 # Longest palindromic subsequence 
 - O(N) optimisation of space is by making use of DP1d base on len : prev , prev_prev made prev-> of len-1 , prev_prev->len-2
 - DO: https://leetcode.com/problems/longest-palindromic-subsequence/submissions/1877761465/
