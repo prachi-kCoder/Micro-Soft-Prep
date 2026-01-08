@@ -12,6 +12,14 @@
 - SC = O(N*M) {Recursive stack and vis arr} 
 - DO : https://leetcode.com/problems/unique-paths-iii/
 
+# Partition to K equal sum subsets
+- Do :https://leetcode.com/problems/partition-to-k-equal-sum-subsets/submissions/1878642896/
+- Keep in mind pruining make this to work more efficiently better than O(K^N)
+- `DESCENDING PRUING` : TO FILL IN BUCKET FAST WITH LARGE VALUES
+- `SAME STATE PRUNING` : TO AVOID EXPLORING SAME STATE
+- `EMPTY BUCKET PRUNING` : TO KNOW IF EMPTY BUCKET ALLOCATION WASN'T SUCCESSFUL SO NO POSSIBLE FOR ANY OTHER ALLOCATION
+- `EXACT MATCH PRUNING` : IF EXACT MATCH FOUND , BEST ALLOCATION THEN CAN'T BE FEASIBLE WITH ANY OTHER ALLOCATION
+  
 # SUBSET-II
 - `j > si & nums[j-1] == nums[j]` this condition is necessary for proning as we want to avoid start the tree with duplicate occ on same recursion level , ## SORTING ## is a must -> As duplicate elements should come adjacently to skip them !
 - TC = O(N * 2^N + N logN )  : as 2^N subsets formation , copying n elements of subsets in ans take O(n) at each recursive level
