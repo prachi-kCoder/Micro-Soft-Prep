@@ -1,7 +1,7 @@
 # OPPONENT STRATEGY FOR GAME :
 - Keep in mind MINMAX strategy ie {don't confuse it with that you want to min the opponent's score} , but its considering that you made the a choice and get the min of the next choice as the opponent is also playing optimally and take the max of those 2 turns :
 - `left + min(rest ranges for next you own turn) , right + min(rest range of your next turn )`
-- DO  : https://www.geeksforgeeks.org/problems/optimal-strategy-for-a-game-1587115620/1
+- DO (1D- dp optimisation!) : https://www.geeksforgeeks.org/problems/optimal-strategy-for-a-game-1587115620/1
 
 # MIN-DIFF PARTIOTION:
 - Your thought it right to reach target/2 so minimise the diff between the 1st half <= totalsum/2 and 2nd half = total_sum-1st_half
