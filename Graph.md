@@ -12,6 +12,9 @@
 - TC : O(V+E) ie because for all V nodes all e edges are checked no matter we get another v node or not ? , SC = O(V+E) -> adj list 
 - DO : https://leetcode.com/problems/course-schedule-ii/
 
+# SHORTEST PATH VISITING ALL NODE :
+- BIMASK + GRAPH: DO HERHE :https://leetcode.com/problems/shortest-path-visiting-all-nodes/submissions/1882060876/
+- tc = n * (1<<N) as 
 # Parallel courses-III
 - DP + Topological Order , TC = O(V + E) , SC = O(V + E)
 - https://leetcode.com/problems/parallel-courses-iii/submissions/1876409560/
