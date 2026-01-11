@@ -6,7 +6,8 @@
 - submask of mask is mask by the loop : TC = (3^n)  
 - `submask = mask ; submask > 0 ; submask = (submask-1)& mask`  why so ? because for submask , here mask act as a filter to ensure bit with 1's are only considered !
 - Do minTime for jobs : https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/description/
-- Do : parallel courses : 
+- Do : parallel courses :
+- Do Number of valid words : https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/submissions/1881863782/ 
 - {This ques can also be done using BinarySearch Backtracking with pruning }
 
 # SINGLE NO-3 
