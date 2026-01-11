@@ -15,3 +15,7 @@
 # Parallel courses-III
 - DP + Topological Order , TC = O(V + E) , SC = O(V + E)
 - https://leetcode.com/problems/parallel-courses-iii/submissions/1876409560/
+
+# ROTTEN ORANGES : 
+- DO : https://www.geeksforgeeks.org/problems/rotten-oranges2536/1
+- Keep in mind level-wise BFS is fastest approach O(N X M) & SC = O(1) no extra space , we can directly use the matrix given in problem ! 
