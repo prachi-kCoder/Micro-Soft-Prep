@@ -7,7 +7,7 @@
 - `submask = mask ; submask > 0 ; submask = (submask-1)& mask`  why so ? because for submask , here mask act as a filter to ensure bit with 1's are only considered !
 - Do minTime for jobs : https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/description/
 - tc : 3^N
-- Do : parallel courses :
+- Do : parallel courses :https://leetcode.com/problems/parallel-courses-ii/description/
 - tc :
 - Do Number of valid words : https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/submissions/1881863782/
 - tc : O(N * L + M * 2^{K-1}) all mask are no enumerated for submask only (1<<6) are enumerated !
