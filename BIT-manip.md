@@ -5,7 +5,8 @@
 # SUBSET - ENUMERATION :
 - submask of mask is mask by the loop : TC = (3^n)  
 - `submask = mask ; submask > 0 ; submask = (submask-1)& mask`  why so ? because for submask , here mask act as a filter to ensure bit with 1's are only considered !
-- Do (DP + bitmask) : https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/description/
+- Do minTime for jobs : https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/description/
+- Do : parallel courses : 
 - {This ques can also be done using BinarySearch Backtracking with pruning }
 
 # SINGLE NO-3 
