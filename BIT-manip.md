@@ -1,3 +1,7 @@
+# Smallest sufficient team ;
+- TC : O(N x (1<<M))  where n= no. of people ,K->total skills 
+- DO :https://leetcode.com/problems/smallest-sufficient-team/submissions/1881747950/
+
 # SUBSET - ENUMERATION :
 - submask of mask is mask by the loop : TC = (3^n)  
 - `submask = mask ; submask > 0 ; submask = (submask-1)& mask`  why so ? because for submask , here mask act as a filter to ensure bit with 1's are only considered !
