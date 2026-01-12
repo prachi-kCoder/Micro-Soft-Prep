@@ -1,5 +1,6 @@
 # 3SUM :
 - https://leetcode.com/problems/3sum/submissions/1882687809/
+- Or better try this :https://leetcode.com/problems/3sum-closest/
 - tc = O(N^2) keep in mind !! as we are applying two pointer approach no the binary search here we just look at high and low and increment or decrement the pointers whether we get higher value or lower based on that we move on low or on high ! , we aren't moving as low++ , high-- so the search space is not decresing by 1/2 !! so it 2 ptr!
 
 
