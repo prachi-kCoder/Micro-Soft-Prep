@@ -5,6 +5,9 @@
 - `cost < dist[u]` : Allows best path to explore , from prev level elmination Stale data ! on only exploring least cost path to u further !
 - Do it here : https://leetcode.com/problems/cheapest-flights-within-k-stops/submissions/1842987200/
 
+# shortest path to get all keys :
+- Again all keys by level wise bfs + bitmask dp , TC = O( n X x X (1<<k)) , SC = O(n x n x (1<<K))
+- Do :https://leetcode.com/problems/shortest-path-to-get-all-keys/submissions/1882601996/
   
 # Course-Schedule-II
 - Donot forget to check for cycle after getting topo order of courses .
@@ -15,6 +18,7 @@
 # SHORTEST PATH VISITING ALL NODE :
 - BIMASK + GRAPH: DO HERHE :https://leetcode.com/problems/shortest-path-visiting-all-nodes/submissions/1882060876/
 - tc = n * (2^N) , SC = O(N*(2^N) )   {as visiting the pair of node , bitmask is necessary to avoid infinitel loop }
+  
 # Parallel courses-III
 - DP + Topological Order , TC = O(V + E) , SC = O(V + E)
 - https://leetcode.com/problems/parallel-courses-iii/submissions/1876409560/
