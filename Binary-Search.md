@@ -1,6 +1,6 @@
 # 3SUM :
 - https://leetcode.com/problems/3sum/submissions/1882687809/
-- Simply get unique triplets , by skipping the same starting values and while binary search for first values do skip all repetitive duplicates , consecutive in sorted array ! TC = O(NLOG) , SC = O(1)
+- tc = O(N^2) keep in mind !! as we are applying two pointer approach no the binary search here we just look at high and low and increment or decrement the pointers whether we get higher value or lower based on that we move on low or on high ! , we aren't moving as low++ , high-- so the search space is not decresing by 1/2 !! so it 2 ptr!
 
 
 - Binary-Search
