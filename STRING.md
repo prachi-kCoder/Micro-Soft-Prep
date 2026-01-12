@@ -15,5 +15,5 @@
 - DO : https://www.geeksforgeeks.org/problems/distinct-palindromic-substrings5141/1 
 
 # MULITPLY STRING  :
-- tc : O(N+M)
+- tc : O(N+M) , Here reverse iteration is done i -> n-1 to 0 , j-> m-1  to 0 .
 - https://www.geeksforgeeks.org/problems/multiply-two-strings/1
