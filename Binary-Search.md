@@ -1,3 +1,8 @@
+# 3SUM :
+- https://leetcode.com/problems/3sum/submissions/1882687809/
+- Simply get unique triplets , by skipping the same starting values and while binary search for first values do skip all repetitive duplicates , consecutive in sorted array ! TC = O(NLOG) , SC = O(1)
+
+
 - Binary-Search
 # median of 2 sorted array when merged 
 - Keep in binary search over smaller array and mid1 os the contribution len on left of med
