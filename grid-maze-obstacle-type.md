@@ -1,0 +1,5 @@
+# SHORTEST PATH IN GRID ;
+- if K>=m+n-3  then enough obstacle as 1st and last cells are ob free so just take the shourtes path of m+n-2 move m-1 downs and n-1 rights
+- PTS :`bfs` for shortest path , `obstacle should be there with every entry in q` , `vis[][] to keep that how many K left to use for obstacle destruction` , TC = O(M X N  xK)
+- Only allow if the vis[i][j] is high ie another path revisiting the cell then should have more destruction power for ob , is it will include more steps as in BFS baad me aaya so should only consider if have advantage associated !
+- Do:https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/submissions/1883501840/
