@@ -1,3 +1,8 @@
+# RAT IN A MAZE ;
+- DO :https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1
+- take O(N x N)->Recusion stack space ,  O(1) extra space using the same matrix for modifications , donot make visited mat separately
+- TC = O(3^NxN)  as branching factor for all nxn cells will be 3 directions (exclusing the 1 from which we came over over the cell !) 
+
 # M-COLORING
 - Its a NP-complete problem 
 - `TC= O(M^V) M-> no of colors , V->vertices` to be precise O(M^V * V) because M  colors over all v vertices M X M X m.. v times hence M^v and for assigning colors is_safe pruning is applies that lower down the recursion call
