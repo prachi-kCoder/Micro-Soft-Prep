@@ -69,3 +69,7 @@ look at len then check the starting index for the curr in recurrence only!
 # EDIT DISTANCE : 
 - Here the DP 1d optimisation is more on the (i) row based ie the outer loop is of {unlike the Longest palindromic Sub where the outloop is of len so prev row is of len-1,  prev_prev is of len-2} , but here i is in outer loop so prev_row is of values of (i-1)th row
 - Get SC(O(M)) , TC = O(N+M) & donot forget making init : https://leetcode.com/problems/edit-distance/description/ 
+
+# ROD-CUTTING
+- Do initialised with dp[i] = price[i-1] to consider the complete length as well
+- Do:https://www.geeksforgeeks.org/problems/rod-cutting0840/1
