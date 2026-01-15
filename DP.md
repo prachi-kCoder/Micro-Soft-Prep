@@ -3,6 +3,10 @@
 - `left + min(rest ranges for next you own turn) , right + min(rest range of your next turn )`
 - DO (1D- dp optimisation!) : https://www.geeksforgeeks.org/problems/optimal-strategy-for-a-game-1587115620/1
 
+# Box-stacking :
+- Do :https://www.geeksforgeeks.org/problems/box-stacking/1
+- Thsi is brilliant question : O(NXN) tc and sc = O(3*N),
+  
 # DICE THROW :
 - Get the 1-D dp approach ;, TC = O(N x M x X) , SC = O(X) as the ith dice value only depend in i-1the state .
 - Do : https://www.geeksforgeeks.org/problems/dice-throw5349/1
