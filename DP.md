@@ -6,6 +6,9 @@
 # Box-stacking :
 - Do :https://www.geeksforgeeks.org/problems/box-stacking/1
 - Thsi is brilliant question : O(NXN) tc and sc = O(3*N),
+
+# RUSSIAN DOLL:
+- do :https://leetcode.com/problems/russian-doll-envelopes/
   
 # DICE THROW :
 - Get the 1-D dp approach ;, TC = O(N x M x X) , SC = O(X) as the ith dice value only depend in i-1the state .
