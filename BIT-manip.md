@@ -10,6 +10,7 @@
 - Do : parallel courses :https://leetcode.com/problems/parallel-courses-ii/description/
 - tc : (1+x)^N  this enumnerates the submask => (1+x)^N so for x=2 gives 3^N
 - Do Number of valid words : https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/submissions/1881863782/
+- Do : https://leetcode.com/problems/minimum-incompatibility/submissions/1887030092/
 - tc : O(N * L + M * 2^{K-1}) all mask are no enumerated for submask only (1<<6) are enumerated !
 - {This ques can also be done using BinarySearch Backtracking with pruning }
 
