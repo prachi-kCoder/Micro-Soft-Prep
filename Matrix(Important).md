@@ -1,3 +1,7 @@
+# Kth smallest ele :
+- do :https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/submissions/1886452392/
+- Assume mat as klist of array and get the smallest k-1 processed TC : O(Klog(N)) , SC= O(K)
+  
 # SHORTEST PATH IN GRID ;
 - if K>=m+n-3  then enough obstacle as 1st and last cells are ob free so just take the shourtes path of m+n-2 move m-1 downs and n-1 rights
 - PTS :`bfs` for shortest path , `obstacle should be there with every entry in q` , `vis[][] to keep that how many K left to use for obstacle destruction` , TC = O(M X N  xK)
