@@ -1,6 +1,7 @@
 # Kth smallest ele :
 - do :https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/submissions/1886452392/
 - Assume mat as klist of array and get the smallest k-1 processed TC : O(Klog(N)) , SC= O(K)
+- OR binary search STAIRCASE APPROACH ! O(N * LOG M) , M->max element range 
   
 # SHORTEST PATH IN GRID ;
 - if K>=m+n-3  then enough obstacle as 1st and last cells are ob free so just take the shourtes path of m+n-2 move m-1 downs and n-1 rights
