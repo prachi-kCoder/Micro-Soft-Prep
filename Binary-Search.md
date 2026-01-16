@@ -3,8 +3,15 @@
 - Do : https://leetcode.com/problems/subarray-sum-equals-k/submissions/1882738744/
   
 
+- BINARY-SEARCH IN 2D MATRIX
+# IF ROWWISE + COLWISE SORTED + ROW&COL IN ORDER :
+- do :https://leetcode.com/problems/search-a-2d-matrix/description/
+# if ROWWISE + COLWISE SORTED 
+- do (but values are row&scols are not) (:
+# 
 
-- Binary-Search
+ 
+- Binary-Search 
 # median of 2 sorted array when merged 
 - Keep in binary search over smaller array and mid1 os the contribution len on left of med
 - So low = 0 , high = n {not the indices they are length contributed} and len = (n+m+1)/2 ; as for odd ans is on left side
