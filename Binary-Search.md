@@ -5,6 +5,7 @@
 
 - BINARY-SEARCH IN 2D MATRIX
 # IF ROWWISE + COLWISE SORTED + ROW&COL IN ORDER :
+- {take the matrix as flattened arr 0,m x n-1} 
 - do :https://leetcode.com/problems/search-a-2d-matrix/description/
 # if ROWWISE + COLWISE SORTED 
 - do (but values are row&scols are not) (:
