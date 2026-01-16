@@ -11,6 +11,9 @@
 - Do :https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/1875140710/
 
 
+# Peak-Element2:
+- KEEP YOUR FOCUS ON how  moveing through global maximam in a col ensures that the value remain greater than any value on its left/right than it ensure either ends to reach the end cell of the row or you get the peak ! TC = O(M logN)  SC = O(1)
+- Do :https://leetcode.com/problems/find-a-peak-element-ii/
 # TWO - POINTERS {not binary search}
 
 # 3SUM :
