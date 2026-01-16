@@ -7,9 +7,11 @@
 # IF ROWWISE + COLWISE SORTED + ROW&COL IN ORDER :
 - {take the matrix as flattened arr 0,m x n-1} 
 - do :https://leetcode.com/problems/search-a-2d-matrix/description/
-# if ROWWISE + COLWISE SORTED 
-- do (but values are row&scols are not) (:
-# 
+# if ROWWISE + COLWISE SORTED but not in order
+- BINARY SEARCH AS PER THE VALUES , + staircase approach !
+# if only rowwise sorted :
+- Binary search over values but staircase won't work here ,so individually perform binary search over rows {as only those are sorted}
+- Do:https://www.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1
 
  
 - Binary-Search 
