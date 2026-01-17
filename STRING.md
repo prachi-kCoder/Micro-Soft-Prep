@@ -1,3 +1,7 @@
+# BASIC - CAL
+- dO :https://leetcode.com/problems/basic-calculator/
+- just keep in mind i is to rightly incremented while recurive calls !
+  
 # PARTITION-PALINDROME IN 2
 - DO :https://www.geeksforgeeks.org/problems/maximum-non-overlapping-odd-palindrome-sum/1
 
