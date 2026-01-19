@@ -1,4 +1,7 @@
-
+# MIN-CAMERA
+- https://leetcode.com/problems/binary-tree-cameras/submissions/1889486781/
+- state based , returns states0/1/2  GREEDY - BTM UP {O(N) tc, sc}
+  
 # MAX-PATH
 - Do :https://www.geeksforgeeks.org/problems/maximum-path-sum/1
 - O(N) , TC, SC for recursion stack {skewwed tree}
