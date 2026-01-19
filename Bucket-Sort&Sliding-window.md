@@ -1,3 +1,7 @@
+# MAX-GAP
+- o(n) , o(n) tc , sc
+- Intution is the pigoehole , as max_gap will be >= 
+- do:https://leetcode.com/problems/maximum-gap/submissions/1890028279/
 # sliding - window 
 
 - MIN WINDOW SUBSTRing
