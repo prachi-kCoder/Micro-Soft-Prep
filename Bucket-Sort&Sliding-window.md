@@ -6,6 +6,10 @@
 # Cylic -sort
 - Find missing positive no. o(N) , O(1) sc : do:https://leetcode.com/problems/first-missing-positive/
 
+# negtive marking 
+- tc : o(n), o(1) sc
+- can be done by cyclic sort by better with neg marking:https://leetcode.com/problems/find-all-duplicates-in-an-array/
+  
 # sliding - window 
 
 - MIN WINDOW SUBSTRing
