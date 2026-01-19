@@ -1,7 +1,10 @@
 # MIN-CAMERA
 - https://leetcode.com/problems/binary-tree-cameras/submissions/1889486781/
 - state based , returns states0/1/2  GREEDY - BTM UP {O(N) tc, sc}
-  
+
+# SUM of distances : 
+- DO : https://leetcode.com/problems/sum-of-distances-in-tree/submissions/1889695450/
+- TC : O(V+E) , sc = O(V+E)
 # vertex cover
 - Do :https://www.geeksforgeeks.org/problems/vertex-cover/1
   
