@@ -50,6 +50,9 @@
 - TC = O(n^3)
 
 
+# buy & sell with cool-down/rest state{5}
+- tc O(N), sc = O(1) : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/submissions/1891748791/
+
 # EGG-DROP :
 - intuitive approach of `e v/s floor dp to get CNT OF min moves` : Give tle though O(E *F * F)
 - Optimise with inverse DP `e v/s moves dp to get the cnt of floor to atleast reach = f` : O(E * M) , where M -> no. of moves for ie log2(F)
