@@ -3,6 +3,10 @@
 - `left + min(rest ranges for next you own turn) , right + min(rest range of your next turn )`
 - DO (1D- dp optimisation!) : https://www.geeksforgeeks.org/problems/optimal-strategy-for-a-game-1587115620/1
 
+# Race-Car:
+- (1<<n)-1 is the distance when we sum 2^0 +  2^1 ... 2^n = sum = (1<<n)-1 keep in mind and A,R moves crucial , O(T log T) tc , space O(T)
+- Link: https://leetcode.com/problems/race-car/?envType=problem-list-v2&envId=7p5x763
+  
 # Box-stacking :
 - Do :https://www.geeksforgeeks.org/problems/box-stacking/1
 - Thsi is brilliant question : O(NXN) tc and sc = O(3*N),
