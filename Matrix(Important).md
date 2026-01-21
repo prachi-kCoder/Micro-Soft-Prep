@@ -1,7 +1,9 @@
-# Kth smallest ele :
+# Kth smallest ele & search in 2d mat 
+
 - do :https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/submissions/1886452392/
-- Assume mat as klist of array and get the smallest k-1 processed TC : O(Klog(N)) , SC= O(K)
-- OR binary search STAIRCASE APPROACH ! O(N * LOG M) , M->max element range 
+- this one with staircase + binary search over value and count for those values <= mid_val to reach the kth larget midval O(logR x (N+M))
+- Do: https://leetcode.com/problems/search-a-2d-matrix/?utm_source=copilot.com
+- no binary search over val , rather take it as flatten array , binary search pos [0,m*n-1] range and get the value and compare with target! , tc : O(log(n*m))
   
 # SHORTEST PATH IN GRID ;
 - if K>=m+n-3  then enough obstacle as 1st and last cells are ob free so just take the shourtes path of m+n-2 move m-1 downs and n-1 rights
