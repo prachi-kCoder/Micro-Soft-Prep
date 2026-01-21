@@ -18,6 +18,10 @@
 - USE #include<string_view> {give view of string faster and better!} , Expand around center for faster efficiency
 - DO : https://www.geeksforgeeks.org/problems/distinct-palindromic-substrings5141/1 
 
+# Min-moves to get palindorm string:
+-do: https://leetcode.com/problems/minimum-number-of-moves-to-make-palindrome/?envType=problem-list-v2&envId=7p5x763
+- tc = O(N^2) sc o(1)
+  
 # MULITPLY STRING  :
 - tc : O(N+M) , Here reverse iteration is done i -> n-1 to 0 , j-> m-1  to 0 .
 - https://www.geeksforgeeks.org/problems/multiply-two-strings/1
