@@ -2,7 +2,10 @@
 - Revise it one using prefix_sum , unordered_map to know can we get ( curr_sum - k ) as a prefix sum on the left to exclude so we get the subarray sum = k
 - Do : https://leetcode.com/problems/subarray-sum-equals-k/submissions/1882738744/
   
-
+# Kth smallest pair
+- Do : https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/?envType=problem-list-v2&envId=7p5x763
+- TC : O(MLOGM + NlogN) where M-> max_diff O(1)sc 
+ 
 ## BINARY-SEARCH IN 2D MATRIX
 `IF ROWWISE + COLWISE SORTED + ROW&COL IN ORDER `:
 - {take the matrix as flattened arr 0,m x n-1} 
