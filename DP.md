@@ -24,6 +24,10 @@
 - Just use  1D bool DP , or rather use bitset {allows u to make state for 1e5 member {don't always think of make bitmask , bitset allowsfor tabulation apporach}}
 - Do : https://www.geeksforgeeks.org/problems/minimum-sum-partition3317/1
 
+# concatenated string :
+- do :https://leetcode.com/problems/concatenated-words/
+- tc = O(n x l^2), sc o(30) for each string
+
 # Work-Break
 {It actually depends upon the len of string and word_dict whether to iterate more on dict or on string}
 {If size(dict) < len(s)} :-
@@ -32,7 +36,7 @@
 - DO : https://leetcode.com/problems/word-break/submissions/1872268075/
 # Word Break ii
 - Do : https://leetcode.com/problems/word-break-ii/submissions/1872638660/
-  
+
  # MIN-PATH-SUM in grid
  - don't forget the browny point of Space optimisation : O(M) rather that making O(N x M) dp table :
  -  Do  :https://leetcode.com/problems/minimum-path-sum/description/
