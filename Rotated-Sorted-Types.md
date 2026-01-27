@@ -14,3 +14,5 @@
 
 # peak element :
 - here arr[mid] & arr[mid+1] is compare as high can be smaller peak can be anywherr in array : https://leetcode.com/problems/peak-index-in-a-mountain-array/
+# GEt complete range of target 
+- https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/1898425124/
