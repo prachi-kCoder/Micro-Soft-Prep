@@ -9,5 +9,5 @@
 
 
 # GET-MIN ;
-- compare mid to high if mid is lesser be on left , but low < high wala Bsearch is keep mid as well in case nums[mid] <= nums[high] :
+- arr[mid] > arr[high] says sorted arr is rotated and initial part having min element would obviously on right , else on left !
 - Do :https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/1896424008/
