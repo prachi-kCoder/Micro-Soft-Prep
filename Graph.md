@@ -5,6 +5,8 @@
 - `cost < dist[u]` : Allows best path to explore , from prev level elmination Stale data ! on only exploring least cost path to u further !
 - Do it here : https://leetcode.com/problems/cheapest-flights-within-k-stops/submissions/1842987200/
 
+-revise this is simple but u always mistake djiktra when to visit :https://leetcode.com/problems/path-with-minimum-effort/submissions/1899013232/
+  
 # Redundant connectioon2 :
 - https://leetcode.com/problems/redundant-connection-ii/
 - Best way to know when DSU fails specifically in directed graphs how to handle it
