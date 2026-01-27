@@ -11,3 +11,6 @@
 # GET-MIN ;
 - arr[mid] > arr[high] says sorted arr is rotated and initial part having min element would obviously on right , else on left !
 - Do :https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/1896424008/
+
+# peak element :
+- here arr[mid] & arr[mid+1] is compare as high can be smaller peak can be anywherr in array : https://leetcode.com/problems/peak-index-in-a-mountain-array/
