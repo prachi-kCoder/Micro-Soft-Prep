@@ -4,8 +4,10 @@
 - DO NO FORGET : `next_dist and dist array` separate to keep prev level data is used for next level, no currlevel data to be used ,
 - `cost < dist[u]` : Allows best path to explore , from prev level elmination Stale data ! on only exploring least cost path to u further !
 - Do it here : https://leetcode.com/problems/cheapest-flights-within-k-stops/submissions/1842987200/
-
--revise this is simple but u always mistake djiktra when to visit :https://leetcode.com/problems/path-with-minimum-effort/submissions/1899013232/
+  
+# mineffort to reach destination
+- revise this is simple but u always mistake djiktra when to visit
+- do :https://leetcode.com/problems/path-with-minimum-effort/submissions/1899013232/
   
 # Redundant connectioon2 :
 - https://leetcode.com/problems/redundant-connection-ii/
