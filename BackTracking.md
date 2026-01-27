@@ -17,6 +17,11 @@
 - SC = O(N*M) {Recursive stack and vis arr} 
 - DO : https://leetcode.com/problems/unique-paths-iii/
 
+# NQUEENS :
+- Here ldia, rdia , cols works as we take the blocked positions collective & its ~ is the safe positions then safe position take by getting rightmost set bit from safe mask and then , cols with c used , and c marked in ldia and set it leftshift rightly to know leftdia ->marking its cells down in row, same is the case in rightdia ->mark its cell down in rows ;
+- Do :https://www.geeksforgeeks.org/problems/n-queen-problem0315/1
+- tc : O(N!) , sc = O(N) rec stack space 
+
 # Partition to K equal sum subsets
 - Do :https://leetcode.com/problems/partition-to-k-equal-sum-subsets/submissions/1878642896/
 - Keep in mind pruining make this to work more efficiently better than O(K^N)
