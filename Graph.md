@@ -5,6 +5,10 @@
 - `cost < dist[u]` : Allows best path to explore , from prev level elmination Stale data ! on only exploring least cost path to u further !
 - Do it here : https://leetcode.com/problems/cheapest-flights-within-k-stops/submissions/1842987200/
 
+# Redundant connectioon2 :
+- https://leetcode.com/problems/redundant-connection-ii/
+- Best way to know when DSU fails specifically in directed graphs how to handle it
+  
 # shortest path to get all keys :
 - Again all keys by level wise bfs + bitmask dp , TC = O( n X x X (1<<k)) , SC = O(n x n x (1<<K))
 - Do :https://leetcode.com/problems/shortest-path-to-get-all-keys/submissions/1882601996/
