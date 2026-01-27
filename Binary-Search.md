@@ -5,7 +5,11 @@
 # Kth smallest pair
 - Do : https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/?envType=problem-list-v2&envId=7p5x763
 - TC : O(MLOGM + NlogN) where M-> max_diff O(1)sc 
- 
+
+# single ele : sorted array o(logn)
+- get the positing of mid,  mid^+1 the if = then eliminate it otherwise keep is high = mid ;
+- do : https://leetcode.com/problems/single-element-in-a-sorted-array/submissions/1898332731/
+  
 ## BINARY-SEARCH IN 2D MATRIX
 `IF ROWWISE + COLWISE SORTED + ROW&COL IN ORDER `:
 - {take the matrix as flattened arr 0,m x n-1} 
