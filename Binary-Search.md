@@ -30,7 +30,7 @@
 - Do :https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/1875140710/
 
 # Peakele1 :
-- arr[mid] , arr[mid+1] , these 2 element are enough to know the slope of values
+- arr[mid] , arr[mid+1] , these 2 element are enough to know the slope of values 
 - DO:https://www.geeksforgeeks.org/problems/peak-element/1?amp%3Butm_campaign&utm_source=geeksforgeeks&%3Butm_medium=ml_article_practice_tab
 # Peak-Element2 :
 - KEEP YOUR FOCUS ON how  moveing through global maximam in a col ensures that the value remain greater than any value on its left/right than it ensure either ends to reach the end cell of the row or you get the peak ! TC = O(M logN)  SC = O(1)
