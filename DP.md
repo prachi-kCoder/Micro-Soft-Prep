@@ -1,3 +1,6 @@
+- don't confuse in tc : bfs/dfs => O(NXM) as every cell is relaxed , vis/dp is maintained for pruning
+- ques backtracking unique path -> tc O(3^ (NxM)) in this all paths are explored so 3^(NxM) 3-> branching factor !
+  
 # OPPONENT STRATEGY FOR GAME :
 - Keep in mind MINMAX strategy ie {don't confuse it with that you want to min the opponent's score} , but its considering that you made the a choice and get the min of the next choice as the opponent is also playing optimally and take the max of those 2 turns :
 - `left + min(rest ranges for next you own turn) , right + min(rest range of your next turn )`
