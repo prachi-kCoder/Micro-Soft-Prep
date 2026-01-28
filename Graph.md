@@ -31,6 +31,9 @@
 - DP + Topological Order , TC = O(V + E) , SC = O(V + E)
 - https://leetcode.com/problems/parallel-courses-iii/submissions/1876409560/
 
+# longest cycle- in graph :
+- (keeping track of id is important) : https://leetcode.com/problems/longest-cycle-in-a-graph/submissions/1899722614/
 # ROTTEN ORANGES : 
 - DO : https://www.geeksforgeeks.org/problems/rotten-oranges2536/1
 - Keep in mind level-wise BFS is fastest approach O(N X M) & SC = O(1) no extra space , we can directly use the matrix given in problem ! 
+
