@@ -1,4 +1,4 @@
-- don't confuse in tc : bfs/dfs => O(NXM) as every cell is relaxed , vis/dp is maintained for pruning
+- don't confuse in tc : bfs/dfs => O(NXM) as every cell is relaxed , vis/dp is maintained for pruning , we neven unmark vis and backtrack 
 - ques backtracking unique path -> tc O(3^ (NxM)) in this all paths are explored so 3^(NxM) 3-> branching factor !
   
 # OPPONENT STRATEGY FOR GAME :
