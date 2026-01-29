@@ -19,3 +19,7 @@
 
 # preoder+inorder -> BINARY TREE
 - DO : https://www.geeksforgeeks.org/problems/construct-tree-1/1
+
+# house-robber type:
+- TAKE skip O(N),O(N) sc for skewed trees
+- https://www.geeksforgeeks.org/problems/maximum-sum-of-non-adjacent-nodes/1
