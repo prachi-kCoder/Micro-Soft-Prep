@@ -1,6 +1,6 @@
 # MIN-CAMERA
 - https://leetcode.com/problems/binary-tree-cameras/submissions/1889486781/
-- state based , returns states0/1/2  GREEDY - BTM UP {O(N) tc, sc}
+- state based , returns states0 {no camera}/1 {has camera}/2 {covered by some other camera}  GREEDY - BTM UP {O(N) tc, sc}
 
 
 ### SUM--------------------
