@@ -7,7 +7,9 @@
 # MaxPathSum :
 - Do : https://leetcode.com/problems/binary-tree-maximum-path-sum/description/
 - Only return max(left_path , right_path)
-
+  
+# zig-zag path
+- https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/submissions/1900573832/
 
 # REROOTING----------------------
 # SUM of distances : 
