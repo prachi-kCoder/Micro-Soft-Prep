@@ -39,3 +39,7 @@
 
 # Bus routes : 
 - do :https://leetcode.com/problems/bus-routes/submissions/1901619286/
+
+# Knigh tour;
+- Heuristic pruning to get min_deg bracnhes to be explored first :https://cses.fi/problemset/result/16099742/
+- 8^64 is not feasible at all 
