@@ -37,3 +37,5 @@
 - DO : https://www.geeksforgeeks.org/problems/rotten-oranges2536/1
 - Keep in mind level-wise BFS is fastest approach O(N X M) & SC = O(1) no extra space , we can directly use the matrix given in problem ! 
 
+# Bus routes : 
+- do :https://leetcode.com/problems/bus-routes/submissions/1901619286/
