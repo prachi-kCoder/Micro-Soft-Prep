@@ -23,5 +23,5 @@
 - tc = O(N^2) sc o(1)
   
 # MULITPLY STRING  :
-- tc : O(N+M) , Here reverse iteration is done i -> n-1 to 0 , j-> m-1  to 0 .
+- tc : O(N+M) , Here reverse iteration is done i -> n-1 to 0 , j-> m-1  to 0 , & after trimming then get n , m calculated ! otherwise you fail in same trap again!
 - https://www.geeksforgeeks.org/problems/multiply-two-strings/1
