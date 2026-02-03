@@ -59,7 +59,7 @@
 
 - For each interval (i, j), we try every possible balloon k as the last one to burst, combining results from left and right subintervals dp[i][j] -> max of all k from [i,j] with dp[i][j] = dp[i][k-1] + dp[k+1][j] + arr[i-1] * arr[k] * arr[j+1]
 - TC = O(n^3)
-
+- Do this standard mcm :https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/submissions/1906462875/
 
 # buy & sell with cool-down/rest state{5}
 - tc O(N), sc = O(1) : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/submissions/1891748791/
