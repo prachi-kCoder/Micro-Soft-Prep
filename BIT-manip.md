@@ -1,3 +1,7 @@
+# PARTITIONING : IN KSUBSET
+- use `bitmask + rem stretegy` or use `backtrack + pruning` , O(2^N X N) 
+- DO :https://leetcode.com/problems/partition-to-k-equal-sum-subsets/
+
 # Smallest sufficient team ;
 - TC : O(N x (1<<M))  where n= no. of people ,K->total skills 
 - DO :https://leetcode.com/problems/smallest-sufficient-team/submissions/1881747950/
