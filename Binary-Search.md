@@ -17,7 +17,7 @@
 
 ` if ROWWISE + COLWISE SORTED but not in order`
 -https://leetcode.com/problems/search-a-2d-matrix-ii/description/
-- BINARY SEARCH AS PER THE VALUES , + staircase approach ! 
+- JUST SIMPLE STAIRCASE METHOD from `top left to btm right` ! 
   
 ` if only rowwise sorted` 
 - Binary search over values but staircase won't work here ,so individually perform binary search over rows {as only those are sorted}
