@@ -17,7 +17,8 @@
 
 ` if ROWWISE + COLWISE SORTED but not in order`
 -https://leetcode.com/problems/search-a-2d-matrix-ii/description/
-- JUST SIMPLE STAIRCASE METHOD from `top left to btm right` ! 
+- JUST SIMPLE STAIRCASE METHOD from `top left to btm right` !
+- bSearch over values & Apply staircase to get Kvalues on left of midVal :https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/
   
 ` if only rowwise sorted` 
 - Binary search over values but staircase won't work here ,so individually perform binary search over rows {as only those are sorted}
