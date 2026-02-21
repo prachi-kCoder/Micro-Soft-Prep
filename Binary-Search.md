@@ -24,7 +24,6 @@
 - Binary search over values but staircase won't work here ,so individually perform binary search over rows {as only those are sorted}
 - Do:https://www.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1
 
- 
 
 # median of 2 sorted array when merged 
 - Keep in binary search over smaller array and mid1 os the contribution len on left of med
