@@ -14,3 +14,8 @@
 
 # Larget rect area in histogram
 Do :https://leetcode.com/problems/largest-rectangle-in-histogram/description/
+
+----GREEDY 
+# Reducing Dishes
+- O(N) is enough! keep take net positive pre_sum so that max_score is increasing GREEDY
+- TC : https://leetcode.com/problems/reducing-dishes/submissions/1926243459/
