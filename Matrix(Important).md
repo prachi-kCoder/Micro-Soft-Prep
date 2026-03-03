@@ -4,6 +4,10 @@
 - this one with staircase + binary search over value and count for those values <= mid_val to reach the kth larget midval O(logR x (N+M))
 - Do: https://leetcode.com/problems/search-a-2d-matrix/?utm_source=copilot.com
 - no binary search over val , rather take it as flatten array , binary search pos [0,m*n-1] range and get the value and compare with target! , tc : O(log(n*m))
+
+# 2 PASS DFS 
+- just check 1 dfs can is the only path or second path also needed !
+- https://leetcode.com/problems/disconnect-path-in-a-binary-matrix-by-at-most-one-flip/description/
   
 # SHORTEST PATH IN GRID ;
 - if K>=m+n-3  then enough obstacle as 1st and last cells are ob free so just take the shourtes path of m+n-2 move m-1 downs and n-1 rights
