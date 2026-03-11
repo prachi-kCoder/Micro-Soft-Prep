@@ -27,6 +27,11 @@
 - BIMASK + GRAPH: DO HERHE :https://leetcode.com/problems/shortest-path-visiting-all-nodes/submissions/1882060876/
 - tc = n * (2^N) , SC = O(N*(2^N) )   {as visiting the pair of node , bitmask is necessary to avoid infinitel loop }
   
+# DSU 
+- Offiline query tech nique of sorting and uniting components! O((N + M)*alpha(M) + mLOGm))
+- https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/description/
+
+
 # Parallel courses-III
 - DP + Topological Order , TC = O(V + E) , SC = O(V + E)
 - https://leetcode.com/problems/parallel-courses-iii/submissions/1876409560/
