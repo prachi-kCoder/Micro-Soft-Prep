@@ -21,6 +21,8 @@
 - Get the 1-D dp approach ;, TC = O(N x M x X) , SC = O(X) as the ith dice value only depend in i-1the state .
 - Do : https://www.geeksforgeeks.org/problems/dice-throw5349/1
 
+# take-skip-hard variation
+-https://leetcode.com/problems/minimum-white-tiles-after-covering-with-carpets/submissions/1946061256/
   
 # MIN-DIFF PARTITION:
 - Your thought it right to reach target/2 so minimise the diff between the 1st half <= totalsum/2 and 2nd half = total_sum-1st_half
